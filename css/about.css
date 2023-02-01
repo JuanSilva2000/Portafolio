@@ -1,0 +1,94 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 500px;
+}
+
+.About .title{
+    padding-left: 60px;
+    margin-bottom: 40px;
+}
+
+.About .title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+.About .title hr{
+    margin-top: 10px;
+    width: 80px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+}
+
+.About .content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 60px;
+}
+
+.About .content .img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.About .content .text{
+    margin: auto 40px;
+    margin-right: 60px;
+}
+
+.About .content .text h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+  
+}
+
+.About .content .text p{
+    font-family: 'Work Sans', sans-serif;
+    color: grey;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.data{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+    color: grey;
+    font-size: 13px;
+}
+
+.About .content .text .cv{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.cv button{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+    border-radius: 15px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    box-shadow: 9px 9px 10px rgba(2, 2, 2, 0.356);
+    margin-right: 10px;
+}
+
+.cv button i{
+    margin-right: 5px;
+}
+
+.cv button:hover{
+    cursor: pointer;
+    background-color: rgb(74, 99, 231);
+    border: 1px solid rgb(74, 99, 231);
+}

@@ -1,0 +1,99 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .title{
+    padding-left: 60px;
+    margin-bottom: 40px;
+}
+
+.contact .title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+.contact .title hr{
+    margin-top: 10px;
+    width: 80px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+}
+
+.contact .content{
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.contact .content .span{
+    border: 1px solid gray;
+    width: 40%;
+    padding: 15px 15px;
+    background-color: rgb(74, 99, 231);
+    color: white;
+    height: 70%;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 9px 9px 10px rgba(2, 2, 2, 0.356);
+}
+
+.contact .content .span h1{
+    color: rgb(230, 230, 230);
+}
+
+.contact .content .form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .content .form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contact .content .form .one{
+    height: 50px;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid rgb(85, 84, 84);
+    margin-top: 5px;
+}
+
+.contact .content .form .two{
+    height: 50px;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid rgb(85, 84, 84);
+}
+
+.contact .content .form .three{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid rgb(85, 84, 84);
+}
+
+.form .message{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+    border-radius: 15px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    box-shadow: 9px 9px 10px rgba(2, 2, 2, 0.356);
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
+.form .message:hover{
+    cursor: pointer;
+    background-color: rgb(74, 99, 231);
+    border: 1px solid rgb(74, 99, 231);
+}

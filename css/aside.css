@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Noto+Sans&family=Work+Sans:wght@800&display=swap');
+
+/*-------------------ASIDE-------------------------*/
+.aside{
+    background-color: rgb(74, 99, 231);
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px rgba(2, 2, 2, 0.356); 
+    min-width: 260px;
+    height: 640px;
+    margin-right: 25px;
+    position: sticky;
+    top: 40px;
+}
+
+@media screen and (max-height: 680px){
+    .aside{
+        background-color: rgb(137, 231, 74);
+        height: 90vh;
+    }
+}
+/*-------------------PRESENTATION-------------------------*/
+.presentation{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 25px;
+    margin-bottom: 20px !important;
+}
+
+.presentation .img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.presentation .h1{
+    margin-top: 20px !important;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.presentation .h2{
+    margin-top: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+/*-------------------SECTIONS-------------------------*/
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+
+.sections a {
+    /* border: 1px solid red; */
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: white;
+}
+
+.sections a i{
+    margin-right: 15px;
+}
+
+.sections a:hover{
+    transition-delay: 0.15s;
+    border-left: 5px solid rgb(255, 89, 89);
+    
+}

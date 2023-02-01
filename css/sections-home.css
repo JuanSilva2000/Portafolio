@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit:wght@300;400&family=Noto+Sans&family=Work+Sans:wght@800&display=swap');
+
+.main{
+    min-width: 850px;
+    max-width: 850px;
+    /* position: absolute;
+    right: 20%; */
+}
+
+.main .sec{
+    height: 640px;
+    margin-bottom: 65px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 9px 9px 10px rgba(2, 2, 2, 0.356); 
+}
+
+/*-------------------HOME-------------------------*/
+.main .home{
+    background-color: rgb(74, 99, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .home .name h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    color: white;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+/*Punto*/
+.main .home .name h1 span{
+    color: rgb(255, 89, 89);
+    font-size: 70px;
+    margin-left: 5px;
+}
+
+.main .home .span{
+    padding-left: 100px;
+} 
+
+.main .home .span span{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*Botones*/
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons span {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons span a{
+    color: white;
+    font-size: 30px;
+}
+
+.buttons .buton{
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgb(255, 89, 89);
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    border: 1px solid rgb(255, 89, 89);
+    box-shadow: 9px 9px 10px rgba(2, 2, 2, 0.356); 
+}
+
+.buttons .buton i{
+    margin-right: 12px;
+}
+
+.buttons .buton:hover{
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+    color: black;
+    box-shadow: 15px 15px 20px rgba(2, 2, 2, 0.356); 
+}
+
+.buttons span a:hover{
+    color: rgb(255, 89, 89);
+    cursor: pointer;
+}

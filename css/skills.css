@@ -1,0 +1,162 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 600px;
+}
+
+.skills .title{
+    padding-left: 60px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.skills .title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+.skills .title hr{
+    margin-top: 10px;
+    width: 80px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+}
+
+.skills .text{
+    width: 85%;
+    margin-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color: grey;
+    font-size: 13.5px;
+    text-align: justify;
+}
+
+.skills .content{
+    width: 95%;
+}
+
+.content .row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.row-1 .one{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+
+.row-1 .one h1{
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+.row-1 .one .progress{
+    width: 100%;
+    height: 8px;
+    border-radius: 100px;
+    margin-bottom: 2px;
+    background: rgb(180, 179, 179);
+    /* border: 1px solid red; */
+}
+
+.progress-value-1{
+    animation: load1 2s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(255, 89, 89);
+    height: 8px;
+    width: 5%;
+}
+
+@keyframes load1 {
+    0% { width: 0; }
+    100% { width: 49%; }
+}
+
+.progress-value-2{
+    animation: load2 2s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(255, 89, 89);
+    height: 8px;
+    width: 5%;
+}
+
+@keyframes load2 {
+    0% { width: 0; }
+    100% { width: 24%; }
+}
+
+.progress-value-3{
+    animation: load3 2s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(255, 89, 89);
+    height: 8px;
+    width: 5%;
+}
+
+@keyframes load3 {
+    0% { width: 0; }
+    100% { width: 24%; }
+}
+
+.progress-value-4{
+    animation: load4 2s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(255, 89, 89);
+    height: 8px;
+    width: 5%;
+}
+
+@keyframes load4 {
+    0% { width: 0; }
+    100% { width: 74%; }
+}
+
+.row-1 .one .level{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.row-1 .one .level p{
+    font-size: 11px;
+    width: 25%;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    color: grey;
+    justify-content: center;
+    border-right: 2px solid rgb(74, 99, 231);
+    margin: auto 1px;
+}
+
+
+.html{
+    color: rgb(245, 132, 3);
+}
+
+.css{
+    color: blue;
+}
+
+/* .jscript{
+    color: rgb(224, 224, 68);
+} */
+
+.react{
+    color: rgb(8, 197, 197);
+}
+
+.english{
+    color: red;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit:wght@300;400&family=Noto+Sans&family=Work+Sans:wght@800&display=swap');
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume .title{
+    padding-left: 60px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.resume .title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+.resume .title hr{
+    margin-top: 10px;
+    width: 80px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+}
+
+.resume .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 60%;
+}
+
+.resume .content .line-time{
+    width: 3px;
+    height: 90%;
+    background-color: rgb(255, 89, 89);
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content .line-time .circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 89, 89);
+    position: relative;
+    left: -6px;
+}
+
+.resume .content .history{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 80%;
+}
+
+.history .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.history .description h2{
+    margin-bottom: 5px;
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+.history .description p{
+    font-family: 'Work Sans';
+    color: grey;
+    font-size: 13.5px;
+    text-align: justify;
+}
