@@ -94,3 +94,27 @@
     color: rgb(255, 89, 89);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1180px) {
+    .main section{
+        width: 90%;
+        height: 500px;
+    }
+
+    .main .home .name h1{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 65px;
+        color: white;
+        padding-left: 50px;
+        margin-bottom: auto;
+    }
+
+    .main .home .span{
+        padding-left: 50px;
+        width: 80%;
+    } 
+
+    .buttons span {
+        margin-left: 5px;
+    }
+}
