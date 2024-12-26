@@ -8,7 +8,9 @@ export const Projects = () => {
     const {selectedTheme} = useContext(AppContext)
 
     return (
-        <section className="project-wrap">
+        <section className="project-wrap" 
+            style={{'--scrollbar-color': selectedTheme.colors[2] }}
+        >
             <h1
                 className='title'
                 style={{color: selectedTheme.colors[2]}}

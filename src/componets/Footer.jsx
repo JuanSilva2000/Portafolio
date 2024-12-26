@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer 
         style={{background: selectedTheme.colors[0] , color: selectedTheme.colors[1]}}
     >
-        Portfolio made with react and inspired by Phuykong Meng. <a href="https://mphuykong.dev/">Link</a>
+        Portfolio made with react and inspired by Phuykong Meng. <a style={{color: selectedTheme.colors[2]} }href="https://mphuykong.dev/">Link</a>
         
     </footer>
   )

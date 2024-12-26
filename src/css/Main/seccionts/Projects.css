@@ -2,6 +2,21 @@
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     /* border: 1px solid yellow; */
     margin-top: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.project-wrap::-webkit-scrollbar {
+    width: 2px;
+}
+
+.project-wrap::-webkit-scrollbar-track {
+    background: none;
+}
+
+.project-wrap::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 4px;
 }
 
 .title {
@@ -49,4 +64,16 @@
     color: white;
     padding: 5px;
     border-radius: 5px;
+}
+
+
+@media (max-width: 1222px) {
+    .project-wrap{
+        /* border: 3px solid red; */
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
 }

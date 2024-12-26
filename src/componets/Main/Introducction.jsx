@@ -6,7 +6,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const Introducction = ({selectedTheme}) => {
-  console.log(selectedTheme)
 
   return (
     <div className='intro-container' style={{background: selectedTheme.colors[0]}}>
@@ -18,13 +17,16 @@ export const Introducction = ({selectedTheme}) => {
           alt="Profile" 
       />
 
-      <div className="name">
+      <div className="name" style={{'--colorTyping': selectedTheme.colors[2]}}>
         <h1 style={{color: selectedTheme.colors[1]}}>Hola,</h1>
-        <h1 style={{color: selectedTheme.colors[1]}}>Soy <span style={{color: selectedTheme.colors[2]}}>Juan Silva</span></h1>
-        <h1 style={{color: selectedTheme.colors[2]}}>Desarrollador Web Frontend</h1>
+
+        <h1 style={{color: selectedTheme.colors[1]}} >Soy <span style={{color: selectedTheme.colors[2]}}>Juan Silva</span></h1>
+
+        <h1 style={{color: selectedTheme.colors[2]}} className='typing'>Desarrollador Web Frontend</h1>
+        
       </div>
 
-      <div 
+      <div className='line'
         style={{ 
           borderTop: `2px solid ${selectedTheme.colors[1]}`, 
           margin: "20px 0" 
@@ -36,20 +38,29 @@ export const Introducction = ({selectedTheme}) => {
       </p>
 
       <div className="data" style={{color: selectedTheme.colors[2]}}>
-        <span >
+        <a
+           href="/pdf/CURRICULUM_VITAE.pdf" 
+          download="CV-Juan-Silva.pdf" 
+        >
           CV
           <PictureAsPdfIcon/>
-        </span>
+        </a>
 
-        <span>
+        <a
+          href='https://github.com/JuanSilva2000'
+          target="_blank" 
+        >
           GiHub
           <GitHubIcon/>
-        </span>
+        </a>
 
-        <span>
+        <a
+          href='https://www.linkedin.com/in/juansilva2000/'
+          target="_blank" 
+        >
           Linked In
           <LinkedInIcon/>
-        </span>
+        </a>
       </div>
 
     </div>

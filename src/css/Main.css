@@ -7,3 +7,15 @@
     align-items: center;
     gap: 10px;
 }
+
+
+
+@media (max-width: 1222px) {
+    .main-container {
+        /* border: 1px solid green; */
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+}

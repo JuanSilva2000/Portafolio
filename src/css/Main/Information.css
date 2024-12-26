@@ -9,6 +9,29 @@
     padding-right: 20px;
     gap: 10px;
     font-family: monospace;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin-bottom: 5px;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+}
+
+.info-container{
+    animation: 1.5s fadeInUp;
+}
+
+
+@media (max-width: 1222px) {
+    .info-container{
+        /* border: 1px solid green; */
+        width: 94%;
+    }
 }

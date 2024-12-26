@@ -5,8 +5,8 @@
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     /* max-width: 600px; */
     font-family: monospace;
-    /* border: 1px solid yellow; */
-    width: 100%;
+    /* border: 1px solid green; */
+    max-width: 100%;
     margin-top: 10px;
   }
   
@@ -41,3 +41,15 @@
     margin: 0;
   }
   
+
+  @media (max-width: 1222px) {
+    .skills-container{
+      /* border: 3px solid red; */
+      padding: 10px;
+      width: 98%
+    }
+
+    .skills-title {
+      font-size: 2rem;
+    }
+}
