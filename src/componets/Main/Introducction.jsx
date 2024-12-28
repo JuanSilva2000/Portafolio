@@ -1,5 +1,6 @@
 import React from 'react'
-import profile from '../../img/profile.jpeg'
+// import profile from '../../img/profile.jpeg'
+import profile from '../../img/Perfil-4.jpeg'
 import '../../css/Main/Introducction.css'
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -37,7 +38,7 @@ export const Introducction = ({selectedTheme}) => {
         Estudiante de Ciencia de la Computación en la Universidad Nacional de Ingeniería (Lima, Perú), apasionado por el desarrollo web.
       </p>
 
-      <div className="data" style={{color: selectedTheme.colors[2]}}>
+      <div className="data" style={{color: selectedTheme.colors[2], '--colorover': selectedTheme.colors[1]}}>
         <a
            href="/pdf/CURRICULUM_VITAE.pdf" 
           download="CV-Juan-Silva.pdf" 

@@ -4,12 +4,12 @@ import AppContext from './context/AppContext'
 import '../css/Header.css'
 
 const themes = [
-    { name: "blood", colors: ["#232222", "#E4E4E4", "#FF467E",] },
+    { name: "dark red", colors: ["#232222", "#E4E4E4", "#FF467E",] },
     { name: "dark modern", colors: ["#1E1E2E", "#F8F8F2", "#FF79C6"] },
-    { name: "vibrant cool", colors: ["#E4E4E4","#2C2D3C", "#37b482"] },
-    { name: "professional clean", colors: ["#282C34", "#ABB2BF", "#61AFEF"] },
-    { name: "dark & bold", colors: ["#1B1B1B", "#F5F5F5", "#FF5555"] },
-    { name: "milkshake", colors: ["#FCE0C0", "#3B2236", "#BD5620"] },
+    { name: "light green", colors: ["#E4E4E4","#2C2D3C", "#37b482"] },
+    { name: "vscode", colors: ["#282C34", "#ABB2BF", "#61AFEF"] },
+    { name: "light red", colors: ["#F5F5F5","#1B1B1B", "#FF5555"] },
+    { name: "beige", colors: ["#FCE0C0", "#3B2236", "#BD5620"] },
 ]
 
 

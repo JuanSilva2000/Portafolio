@@ -15,7 +15,7 @@
 .content-education {
     font-size: 1rem;
     padding-left: 25px;
-    /* border: 1px solid greenyellow; */
+    /* border: 1px solid red; */
     
 }
 
@@ -24,8 +24,12 @@
     flex-direction: row;
     align-items: center;
     gap: 5px;
+    font-size: 1.11rem;
 }
 
+.time{
+    font-size: 1.1rem;
+}
 
 @media (max-width: 1222px) {
     .education-wrap{

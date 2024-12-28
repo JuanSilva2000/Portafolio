@@ -17,9 +17,9 @@ export const Education = () => {
       <span className='content-education'>
         <h3 style={{color: selectedTheme.colors[1]}}>Universidad Nacional de Ingeniería</h3>
 
-        <h4 className='profession' style={{color: selectedTheme.colors[1]}}>Ciencia de la Computación <ComputerIcon/></h4>
+        <p className='profession' style={{color: selectedTheme.colors[1]}}>Ciencia de la Computación <ComputerIcon/></p>
 
-        <h4 className='time' style={{color: selectedTheme.colors[1]}}>2020-Actualidad (7mo ciclo)</h4>
+        <p className='time' style={{color: selectedTheme.colors[1]}}>2020-Actualidad (7mo ciclo)</p>
       </span>
   </section>
   )

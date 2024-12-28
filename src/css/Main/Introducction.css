@@ -15,6 +15,7 @@
 }
 
 .intro-container .name {
+    /* margin-top: 5px; */
     font-size: 20px;
 }
 
@@ -69,7 +70,7 @@
 }
 
 .data a:hover{
-    color: azure;
+    color: var(--colorover);
 }
 
 @keyframes fadeInUp {
@@ -114,6 +115,7 @@
         flex-wrap: nowrap;
         /* padding: 5px; */
         text-align: center;
+        margin-top: 6px;
     }
 
     .intro-container .description {
