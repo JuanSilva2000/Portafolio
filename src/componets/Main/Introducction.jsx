@@ -1,6 +1,6 @@
 import React from 'react'
 // import profile from '../../img/profile.jpeg'
-import profile from '../../img/Perfil-4.jpeg'
+import profile from '../../img/perfil-5.jpeg'
 import '../../css/Main/Introducction.css'
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -23,7 +23,7 @@ export const Introducction = ({selectedTheme}) => {
 
         <h1 style={{color: selectedTheme.colors[1]}} >Soy <span style={{color: selectedTheme.colors[2]}}>Juan Silva</span></h1>
 
-        <h1 style={{color: selectedTheme.colors[2]}} className='typing'>Desarrollador Web Frontend</h1>
+        <h1 style={{color: selectedTheme.colors[2]}} className='typing'>Desarrollador Web</h1>
         
       </div>
 
@@ -35,12 +35,12 @@ export const Introducction = ({selectedTheme}) => {
       ></div>
 
       <p className="description" style={{color: selectedTheme.colors[1]}}>
-        Estudiante de Ciencia de la Computación en la Universidad Nacional de Ingeniería (Lima, Perú), apasionado por el desarrollo web.
+        Estudiante de Ciencia de la Computación en la Universidad Nacional de Ingeniería, con interés en el Desarrollo web y miembro activo del grupo estudiantil <a href='https://acecom.dev/' style={{color: selectedTheme.colors[2], textDecoration: 'none', fontWeight: 'bold'}}>ACECOM</a> (Asociación Científica Especializada en Computación) de la Facultad de Ciencias, donde he participado en proyectos que me han permitido fortalecer mis habilidades técnicas y de trabajo en equipo. Me considero una persona autodidacta, siempre en búsqueda de nuevos conocimientos y tecnologías que me permitan crecer profesionalmente y aportar valor en cada proyecto.
       </p>
 
       <div className="data" style={{color: selectedTheme.colors[2], '--colorover': selectedTheme.colors[1]}}>
         <a
-           href="/pdf/CURRICULUM_VITAE.pdf" 
+           href="/pdf/CV-SILVA ROJAS.pdf" 
           download="CV-Juan-Silva.pdf" 
         >
           CV
@@ -51,7 +51,7 @@ export const Introducction = ({selectedTheme}) => {
           href='https://github.com/JuanSilva2000'
           target="_blank" 
         >
-          GiHub
+          GitHub
           <GitHubIcon/>
         </a>
 

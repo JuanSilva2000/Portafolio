@@ -1,9 +1,10 @@
 .project-wrap {
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    /* border: 1px solid yellow; */
+    /* border: 1px solid red; */
     margin-top: 10px;
     max-height: 400px;
     overflow-y: scroll;
+    padding-right: 10px;
 }
 
 .project-wrap::-webkit-scrollbar {
@@ -37,6 +38,7 @@
     /* border: 1px solid red; */
     padding-left: 25px;
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .project-wrap .project-decription .tecnologies-projects {

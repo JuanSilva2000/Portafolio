@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../css/Main/Information.css'
 import { Education } from './secctions/Education';
 import { Projects } from './secctions/Projects';
