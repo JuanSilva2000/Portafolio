@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import PropTypes from 'prop-types'
 import AppContext from '../../context/AppContext'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 
 export const ProjectItem = ({ title, description, technologies, githubUrl }) => {
     const { selectedTheme } = useContext(AppContext)
@@ -19,7 +20,7 @@ export const ProjectItem = ({ title, description, technologies, githubUrl }) => 
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <GitHubIcon />
+                    {title === 'Acecom Web site'? <TravelExploreIcon /> : <GitHubIcon />}
                 </a>
             </h2>
 

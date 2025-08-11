@@ -9,22 +9,28 @@ export const Projects = () => {
 
     const projectsData = [
         {
-            title: "Juego de Escape Room",
-            description: "Juego web interactivo donde los usuarios resuelven desafíos para avanzar en diferentes niveles. El desarrollo se realizó en 3 sprints, gestionando las tareas con un kanban y aplicando prácticas de pruebas unitarias y comportamiento. Se utilizó el enfoque GitHub Flow y automatización con GitHub Actions.",
-            technologies: ["HTML", "CSS", "JavaScript", "Node", "Express", "GitHub Action", "ScrumBand"],
-            githubUrl: "https://github.com/JuanSilva2000/Escape-room"
+            title: "Kanban App",
+            description: "Desarrollé una aplicacion web para la gestión de proyectos que utilizan el enfoque Kanban, permitiendo a los usuarios crear, asignar, organizar y priorizar tareas de manera eficiente, incluye servicio de autenticación por roles y gestión de perfiles, además posee interfaz intuitiva y responsiva.",
+            technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Material-UI"],
+            githubUrl: "https://github.com/JuanSilva2000/Kanban-App"
+        },
+        {
+            title: "Acecom Web site",
+            description: "Proyecto del sitio web de ACECOM, me integré al equipo existente para aportar mejoras significativas. Corregí problemas de layout shift en las interfaces de Login, Register y Contact Us; implementé un botón de cambio de idioma (language switcher) utilizando i18next para alternar entre inglés y español; desarrollé la vista “Áreas”, que presenta información sobre los subgrupos de Desarrollo Web, Inteligencia Artificial y Seguridad Informática, incluyendo sus objetivos e integrantes; e incorporé la funcionalidad de exportar a Excel, mediante ExcelJS, la lista de integrantes filtrada por estado o por área.",
+            technologies: ["Remix", "TypeScript", "Styled Components", "i18next", "Material-UI"],
+            githubUrl: "https://acecom.dev/"
         },
         {
             title: "Buscador de Recetas de Comida",
             description: "Plataforma para buscar recetas y obtener detalles como ingredientes y pasos de preparación. Incluye un asistente virtual que responde preguntas relacionadas con las recetas. El desarrollo se organizó utilizando GitHub Flow, dividiendo funcionalidades en ramas para su integración en la rama principal.",
-            technologies: ["React", "CSS", "Node", "Express", "OpenAI API"],
+            technologies: ["React", "CSS", "Node.js", "Express", "OpenAI API"],
             githubUrl: "https://github.com/JuanSilva2000/PAM"
         },
         {
-            title: "Proyecto CRUD de Usuarios",
-            description: "Desarrollé un CRUD de gestión de usuarios, permitiendo la creación, lectura, actualización y eliminación de registros con nombre, email y edad. Implementé una interfaz intuitiva con Vue.js, una API REST con Express y el manejo eficiente de la base de datos con Sequelize. Además, apliqué validaciones y buenas prácticas para garantizar la seguridad y estabilidad del sistema.",
-            technologies: ["Vue", "CSS", "Vuetify", "Node", "Express", "Sequelize", "MySQL"],
-            githubUrl: "https://github.com/JuanSilva2000/CRUD-USER"
+            title: "Juego de Escape Room",
+            description: "Juego web interactivo donde los usuarios resuelven desafíos para avanzar en diferentes niveles. El desarrollo se realizó en 3 sprints, gestionando las tareas con un kanban y aplicando prácticas de pruebas unitarias y comportamiento. Se utilizó el enfoque GitHub Flow y automatización con GitHub Actions.",
+            technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "GitHub Action", "ScrumBand"],
+            githubUrl: "https://github.com/JuanSilva2000/Escape-room"
         }
     ]
 

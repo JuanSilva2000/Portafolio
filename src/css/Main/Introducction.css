@@ -23,25 +23,30 @@
 
 .name .typing {
     font-family: monospace;
-    /* overflow: hidden; 
-    /* border-right: .15em solid var(--colorTyping); */
-    /* white-space: normal; */
-    /* white-space: nowrap; */
-   /* margin: 0 auto;
+    overflow: hidden; 
+    border-right: .15em solid var(--colorTyping);
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
     animation: 
-      typing 3.5s steps(30, end),
-      blink-caret 1s step-end infinite; */
+      typewriter-once 4s steps(17, end) forwards,
+      cursor-disappear 0.5s 4s forwards;
 }
 
-/* @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+@keyframes typewriter-once {
+    0% { width: 0 }
+    100% { width: 17ch }
+}
+
+@keyframes cursor-disappear {
+    0% { border-right-color: var(--colorTyping) }
+    100% { border-right-color: transparent }
+}
   
-  @keyframes blink-caret {
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: var(--colorTyping) }
-  } */
+}
 
 .intro-container .description {
     font-family: monospace;
@@ -134,7 +139,21 @@
     .intro-container .name .typing{
         max-width: 100%;
         line-height: 1.2;
-        word-break: break-word;
-        white-space: normal; 
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+          typewriter-once-mobile 4s steps(17, end) forwards,
+          cursor-disappear-mobile 0.5s 4s forwards;
+    }
+
+    @keyframes typewriter-once-mobile {
+        0% { width: 0 }
+        100% { width: 17ch }
+    }
+
+    @keyframes cursor-disappear-mobile {
+        0% { border-right-color: var(--colorTyping) }
+        100% { border-right-color: transparent }
     }
 }
