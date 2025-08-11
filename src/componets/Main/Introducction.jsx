@@ -1,4 +1,3 @@
-import React from 'react'
 // import profile from '../../img/profile.jpeg'
 import profile from '../../img/perfil-5.jpeg'
 import '../../css/Main/Introducction.css'

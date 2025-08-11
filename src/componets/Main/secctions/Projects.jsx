@@ -10,7 +10,7 @@ export const Projects = () => {
     const projectsData = [
         {
             title: "Kanban App",
-            description: "Desarrollé una aplicacion web para la gestión de proyectos que utilizan el enfoque Kanban, permitiendo a los usuarios crear, asignar, organizar y priorizar tareas de manera eficiente, incluye servicio de autenticación por roles y gestión de perfiles, además posee interfaz intuitiva y responsiva.",
+            description: "Desarrollé una aplicación web para la gestión de proyectos que utilizan el enfoque Kanban, permitiendo a los usuarios crear, asignar, organizar y priorizar tareas de manera eficiente, incluye servicio de autenticación por roles y gestión de perfiles, además posee interfaz intuitiva y responsiva.",
             technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Material-UI"],
             githubUrl: "https://github.com/JuanSilva2000/Kanban-App"
         },

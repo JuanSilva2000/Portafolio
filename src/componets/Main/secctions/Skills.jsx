@@ -18,7 +18,7 @@ export const Skills = () => {
     },
     {
       title: "Backend",
-      skills: ['Node.js', 'Express', 'Prisma', 'Sequelize', 'Supabase']
+      skills: ['Node.js', 'Express', 'Prisma', 'Supabase']
     },
     {
       title: "Competencias y herramientas",
