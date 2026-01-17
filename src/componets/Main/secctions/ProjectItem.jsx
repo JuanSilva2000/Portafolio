@@ -4,28 +4,41 @@ import AppContext from '../../context/AppContext'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 
-export const ProjectItem = ({ title, description, technologies, githubUrl }) => {
+export const ProjectItem = ({ title, description, technologies, githubUrl, webUrl }) => {
     const { selectedTheme } = useContext(AppContext)
 
     return (
         <span className='project-decription'>
-            <h2 
-                style={{ color: selectedTheme.colors[2] }} 
+            <h2
+                style={{ color: selectedTheme.colors[2] }}
                 className='title-project'
             >
-                ● {title} 
-                <a 
-                    style={{ color: selectedTheme.colors[2] }} 
-                    href={githubUrl} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                >
-                    {title === 'Acecom Web site'? <TravelExploreIcon /> : <GitHubIcon />}
-                </a>
+                ● {title}
+                {githubUrl && (
+                    <a
+                        style={{ color: selectedTheme.colors[2] }}
+                        href={githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <GitHubIcon />
+                    </a>
+                )}
+                {webUrl && (
+                    <a
+                        style={{ color: selectedTheme.colors[2] }}
+                        href={webUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='ml-2'
+                    >
+                        <TravelExploreIcon />
+                    </a>
+                )}
             </h2>
 
-            <p 
-                style={{ color: selectedTheme.colors[1] }} 
+            <p
+                style={{ color: selectedTheme.colors[1] }}
                 className='content-project'
             >
                 {description}
@@ -44,5 +57,6 @@ ProjectItem.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
-    githubUrl: PropTypes.string.isRequired
+    githubUrl: PropTypes.string,
+    webUrl: PropTypes.string
 }
